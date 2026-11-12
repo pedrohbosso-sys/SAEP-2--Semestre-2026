@@ -1,0 +1,16 @@
+{
+    "name": "saep/sisvet",
+    "description": "Sistema de gestão para clínica veterinária",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Core\\": "src/Core/",
+            "App\\Controller\\": "src/Controller/",
+            "App\\Controllers\\": "src/Controller/",
+            "App\\Models\\": "src/Model/"
+        }
+    }
+}
